@@ -1,0 +1,243 @@
+.main-side-div {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+}
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2640;
+    width: 14rem;
+    /* height: 100%; */
+    padding: 1rem 0.625rem;
+    gap: 1rem;
+    flex: 1 0 0;
+}
+
+.page-section:hover {
+    background-color:#353C53;
+    border-radius: 0.25rem;
+}
+
+.sidenav-storeinfo {
+    display: flex;
+    /* background-color: red; */
+    height: 8%;
+    width: 95%;
+}
+
+.sidenav-pages {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+
+
+}
+
+.storelogo {
+    display: flex;
+    /* background-color: grey; */
+    height: 75%;
+    width: 30%;
+    width: 2.5rem;
+    /* height: 2.5rem; */
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.storename-section {
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.storename {
+    display: flex;
+    /* background-color: red; */
+    height: 35%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    /* font-size: 0.9rem; */
+
+    /* Body 1/Medium */
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    /* 146.667% */
+}
+
+.imagSquare {
+    /* background-color: teal; */
+    display: flex;
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg {
+    width: 2.4375rem;
+    height: 2.4375rem;
+    border-radius: 0.25rem;
+}
+
+.storelink {
+    display: flex;
+    /* font-family: 'Galano Grotesque'; */
+    /* background-color: violet; */
+    color: #D2D4D9;
+    height: 35%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    /* 123.077% */
+    text-decoration-line: underline;
+}
+
+.storedropdown {
+    display: flex;
+    /* background-color: orange; */
+    height: 100%;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.page-section {
+    /* background-color: bisque; */
+    width: 100%;
+    display: flex;
+    height: 2.2rem;
+}
+
+.page-icon {
+    display: flex;
+    width: 2.8rem;
+    height: 100%;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.page-name {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    /* background-color: green; */
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* 142.857% */
+
+}
+.credits-name {
+
+/* Sub Body/Regular */
+color: white;
+font-family: Inter;
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 400;
+opacity: 0.8;
+line-height: 1rem; /* 123.077% */
+}
+.credits-amount {
+color: white;
+/* Sub Title/Medium */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 150% */
+}
+
+.active {
+    background-color: #343B53;
+    border-radius: 0.25rem;
+}
+
+.side-nav-credits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1E2640;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidenav-bottom {
+    display: flex;
+    background-color: #353C53;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1em;
+    border-radius: 0.25rem;
+}
+.sidenav-credits {
+    /* background-color: red; */
+    width: 100%;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits-icon {
+    display: flex;
+    /* background-color: green; */
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.credits-info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.final-icon {
+    display: flex;
+    background-color: #494F64;
+    width: 70%;
+    height: 70%;
+    border-radius: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+}

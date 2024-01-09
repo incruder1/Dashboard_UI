@@ -1,0 +1,113 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    height: 8%;
+    align-items: center;
+    border-bottom: 1px solid var(--Black-85, #D9D9D9);
+
+}
+
+.payments {
+    display: flex;
+    width: 30%;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    width: 40%;
+    /* background-color: tan; */
+    align-items: center;
+    height: 100%;
+}
+
+.search-icon {
+    display: flex;
+    /* width: 10%; */
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5625rem 0rem 0.5625rem 1rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    color: #878787;
+}
+
+.search-input {
+    display: flex;
+    width: 90%;
+    /* background-color: green; */
+}
+
+*:focus {
+    outline: none;
+}
+
+.input-box {
+    border: none;
+    background-color: #f2f2f2;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    width: 25rem;
+    padding: 0.5625rem 1rem 0.5625rem 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    /* 146.667% */
+}
+
+.nav-icons {
+    display: flex;
+    width: 29%;
+    /* background-color: hotpink; */
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.icon-1 {
+    display: flex;
+    background-color: #e6e6e6;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.payments-name {
+    display: flex;
+    /* background-color: blue; */
+    height: 100%;
+    padding: 0.75rem 0.5rem 0.75rem 2rem;
+    /* Heading/H5 */
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    /* 140% */
+}
+
+.payments-how {
+    display: flex;
+    /* background-color: violet; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    /* color: var(--Black-30, #4D4D4D); */
+    /* font-family: Galano Grotesque; */
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
+}
+
+@media (max-width:576px) {
+    .nav-bar {
+        width: max-content;
+    }
+}
