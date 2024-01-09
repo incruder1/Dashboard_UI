@@ -1,0 +1,16 @@
+.online-order {
+    color: var(--Black-30, #4D4D4D);
+   
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; 
+}
+.order-value {
+    color: var(--Black-12, #1A181E);
+   
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.375rem; 
+}

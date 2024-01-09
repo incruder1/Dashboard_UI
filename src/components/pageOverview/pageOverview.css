@@ -1,29 +1,26 @@
 .page-overview {
     display: flex;
     flex-direction: column;
-    /* background-color: red; */
+    
     padding: 2rem 2rem;
 }
 
 .overview-top {
     display: flex;
-    /* background-color: cadetblue; */
+    
     justify-content: space-between;
     align-items: center;
     height: 2.5rem;
 }
 .overview-name {
     display: flex;
-    /* color: var(--Black-12, #1A181E); */
-    /* font-family: Galano Grotesque; */
+     
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: 1.75rem;
 }
-.dropdown {
 
-}
 
 .select-drop {
     width: 7.5625rem;
@@ -37,11 +34,11 @@
 }
 .overview-bottom {
     display: flex;
-    /* background-color: blueviolet; */
+    
     justify-content: space-between;
     margin-top: 0.75rem;
 }
-.overview-orders {
+.overview-order {
 
     display: flex;
     flex-direction: column;
@@ -52,26 +49,22 @@
     background: var(--Black-100, #FFF);
     box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.1);
 }
-.online-orders {
+.online-order {
     color: var(--Black-30, #4D4D4D);
-    /* font-family: Galano Grotesque; */
+     
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5rem; /* 150% */
+    line-height: 1.5rem;  
 }
 
 .order-value {
     color: var(--Black-12, #1A181E);
-    /* font-family: Galano Grotesque; */
+    
     font-size: 2rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 2.375rem; /* 118.75% */
+    line-height: 2.375rem; 
 }
 
-@media (max-width:576px) {
-    .overview-bottom {
-      /* flex-direction: column; */
-    }
-  }
+ 

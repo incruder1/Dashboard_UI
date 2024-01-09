@@ -6,8 +6,10 @@ import { PiDownloadSimpleBold } from "react-icons/pi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { CiCircleInfo } from "react-icons/ci";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
+import {data,tableHeader} from "../../data/tableData"
 
 const PageTable = () => {
+  
   return (
     <div className='page-table'>
       <div className='table-title'>
@@ -46,58 +48,19 @@ const PageTable = () => {
             </div>
             <div style={{ justifyContent: 'flex-end' }} className='title-headers'>Order amount</div>
             <div style={{ justifyContent: 'flex-end' }} className='title-headers'>Transactions fees <CiCircleInfo />
+
             </div>
 
           </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
-          <div className='content-data'>
-            <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>#281209</div>
-            <div style={{ justifyContent: 'flex-start' }} className='data-value'>7 July, 2023</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹1,278.23</div>
-            <div style={{ justifyContent: 'flex-end' }} className='data-value'>₹22</div>
-
-          </div>
+          {data.map((data)=>{
+              return(
+                <div className='content-data'>
+                <div style={{ justifyContent: 'flex-start', color: '#146EB4' }} className='data-value'>{data.orderId}</div>
+                <div style={{ justifyContent: 'flex-start' }} className='data-value'>{data.orderDate}</div>
+                <div style={{ justifyContent: 'flex-end' }} className='data-value'>{data.orderAmount}</div>
+                <div style={{ justifyContent: 'flex-end' }} className='data-value'>{data.transactionFees}</div>
+               </div>
+              )} )}
         </div>
         <div className='table-bottom'>
           <div className='indicators'><FaAngleLeft />

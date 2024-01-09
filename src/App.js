@@ -1,16 +1,15 @@
-import './App.css';
-import { Fragment } from 'react';
-import SideNav from './components/sideNav/sideNav.jsx';
+import './App.css'; 
+import SideBar from './components/SideBar/SideBar.jsx';
 import PageContent from './components/pageContent/pageContent'
  
 function App() {
   return (
-    <Fragment>
+    <>
       <div className='main-div'>
-        <SideNav />
+        <SideBar />
         <PageContent />
       </div>
-    </Fragment>
+    </>
   );
 }
 
